@@ -1,3 +1,3 @@
-module github.com/golang/snappy
+module github.com/golang-update/snappy
 
 go 1.24

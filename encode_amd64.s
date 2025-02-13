@@ -10,7 +10,7 @@
 
 // The XXX lines assemble on Go 1.4, 1.5 and 1.7, but not 1.6, due to a
 // Go toolchain regression. See https://github.com/golang/go/issues/15426 and
-// https://github.com/golang/snappy/issues/29
+// https://github.com/golang-update/snappy/issues/29
 //
 // As a workaround, the package was built with a known good assembler, and
 // those instructions were disassembled by "objdump -d" to yield the

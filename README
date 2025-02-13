@@ -1,10 +1,10 @@
 The Snappy compression format in the Go programming language.
 
 To use as a library:
-$ go get github.com/golang/snappy
+$ go get github.com/golang-update/snappy
 
 To use as a binary:
-$ go install github.com/golang/snappy/cmd/snappytool@latest
+$ go install github.com/golang-update/snappy/cmd/snappytool@latest
 $ cat decoded | ~/go/bin/snappytool -e > encoded
 $ cat encoded | ~/go/bin/snappytool -d > decoded
 
